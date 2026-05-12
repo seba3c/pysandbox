@@ -1,4 +1,4 @@
-def say_hello(name: str = "World") -> str:
+def say_hello(name: str = "Bark") -> str:
     return f"Hello, {name}!"
 
 
