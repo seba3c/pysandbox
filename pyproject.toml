@@ -3,7 +3,9 @@ name = "pysandbox"
 version = "0.1.0"
 description = "A simple Python sandbox project for experiments and scripts."
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pydantic>=2.13.4",
+]
 
 [dependency-groups]
 dev = ["pytest>=8.0", "ruff>=0.7.0", "pre-commit>=4.0"]
